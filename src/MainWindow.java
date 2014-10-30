@@ -36,7 +36,6 @@ public class MainWindow extends JFrame
 		terminateModel = new DefaultListModel<String>();
 		eventIDModel = new DefaultListModel<String>();
 	
-		
 		rq1 = new JList<String>(rq1Model);
 		rq2 = new JList<String>(rq2Model);
 		rq3 = new JList<String>(rq3Model);
@@ -56,12 +55,6 @@ public class MainWindow extends JFrame
 		suspendedQ.setBorder(new TitledBorder("Suspended Queue"));
 		terminateQ.setBorder(new TitledBorder("Terminated Queue"));
 		eventIDQ.setBorder(new TitledBorder("Event IDs"));
-		
-//		add(rq1);
-//		add(rq2);
-//		add(rq3);
-//		add(rq4);
-		
 		
 		top.add(rq1);
 		top.add(rq2);

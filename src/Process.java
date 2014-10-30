@@ -20,8 +20,7 @@ public class Process extends Thread {
 		this.name = name;
 		this.cycleTime = cycleTime;
 		created = LocalTime.now();
-		
-//		System.out.println(this);
+
 	}
 
 
